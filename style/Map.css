@@ -1,0 +1,38 @@
+.grid__route {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.down__block {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    z-index: 1000; 
+}
+
+.down__blocks {
+    width: 50%;
+    padding-top: 5px;
+}
+
+.down__blocks svg {
+    cursor: pointer;
+}
+
+.border_right {
+    border-right: 1px solid #000000;
+}
+
+
+@media(max-width: 500px) {
+    .grid__route {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+}

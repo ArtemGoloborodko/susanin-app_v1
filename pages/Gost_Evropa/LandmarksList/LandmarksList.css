@@ -1,0 +1,54 @@
+/* LandmarksList.css */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.landmark__list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.landmark__item {
+  margin-bottom: 10px;
+}
+
+.landmark__label {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.landmark__label.visited {
+  transition: background-color 0.3s ease;
+  background-color: rgb(78, 199, 78);
+}
+
+.landmark__checkbox {
+  width: 30px;
+  margin: 0;
+  margin-right: 10px;
+  border: none;
+  outline: none 
+}
+
+.landmark__text {
+  text-align: left;
+  text-wrap: balance;
+  color: #000000;
+}
+
+.landmark__text.visited {
+  transition: color 0.3s ease;
+  color: rgb(255, 255, 255);
+}

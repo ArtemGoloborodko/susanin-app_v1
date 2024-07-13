@@ -1,0 +1,24 @@
+.card__route_block {
+    position: relative;
+    background-color: #dcdcdc;
+   
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.card__route_info {
+    padding: 10px;
+}
+
+.close__btn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.object__histori {
+    text-align: justify;
+    text-wrap: balance;
+    max-width: 800px;
+    margin: 0 auto;
+}

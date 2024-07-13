@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Маршрут от «Гостиница Калининград»",
+        "type": "пеший",
+        "imageUrl": "./img/img1.jpg",
+        "path": "/map_1",
+        "component": "Map_1"
+    },
+    {
+        "id": 2,
+        "title": "Маршрут от гостиницы «Европа»",
+        "type": "пеший",
+        "imageUrl": "./img/img2.jpg",
+        "path": "/map_2",
+        "component": "Map_2"
+    },
+    {
+        "id": 3,
+        "title": "Маршрут от гостиницы «Холидей Инн»",
+        "type": "пеший",
+        "imageUrl": "./img/img3.jpg",
+        "path": "/map_3",
+        "component": "Map_3"
+    }
+ 
+]
